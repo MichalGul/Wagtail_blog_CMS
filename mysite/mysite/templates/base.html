@@ -36,6 +36,9 @@
 
         {% block content %}{% endblock %}
 
+         {# Add this to the file: #}
+            {% include "includes/footer.html" %}
+
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/mysite.js' %}"></script>
 
